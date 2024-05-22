@@ -1,8 +1,5 @@
 
 fun main() {
-    val window = window()
+    val window = Window()
     window.run()
-
-
-
 }

@@ -7,7 +7,7 @@ import org.lwjgl.system.MemoryStack.stackPush
 import org.lwjgl.system.MemoryUtil.NULL
 
 
-class window {
+class Window {
     private var window: Long = NULL
     fun run() {
         System.out.println(("Hello LWJGL " + Version.getVersion()).toString() + "!")
@@ -46,10 +46,14 @@ class window {
         glfwSwapInterval(1);
     }
     private fun loop(){
+        println("here?")
+        val obect = Object()
+        println("Here? 2")
         GL.createCapabilities();
         glClearColor(1.0f, 1.0f, 0.0f, 0.0f);
         while(!glfwWindowShouldClose(window)){
             glClear(GL_COLOR_BUFFER_BIT or GL_DEPTH_BUFFER_BIT)
+            obect.run()
             glfwSwapBuffers(window);
             glfwPollEvents();
         }
