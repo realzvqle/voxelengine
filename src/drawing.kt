@@ -1,9 +1,6 @@
-import org.lwjgl.glfw.GLFW
 import org.lwjgl.opengl.GL30
 import org.lwjgl.system.MemoryUtil
-import java.io.File
 import java.nio.FloatBuffer
-import kotlin.math.sin
 
 class Object {
     private val vertices = floatArrayOf(

@@ -54,7 +54,6 @@ class Shader(vertexPath: String, fragmentPath: String) {
 
     }
     fun use(){
-
         GL30.glUseProgram(id)
     }
     fun setBool(name: String, value: Int){
