@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa72655-9c09-47a7-ab5c-537d49f14af1" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lwjgl_stb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Textures.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textures/stone.png" afterDir="false" />
+    <list default="true" id="3fa72655-9c09-47a7-ab5c-537d49f14af1" name="Changes" comment="textures (broken and WIP)">
+      <change afterPath="$PROJECT_DIR$/textures/images.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VoxelEngine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VoxelEngine.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/glsl/frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/glsl/frag.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/glsl/vertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/glsl/vertex.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Textures.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Textures.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/drawing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/drawing.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/zvqlee/IdeaProjects/VoxelEngine/textures",
+    "last_opened_file_path": "C:/lwjgl/glm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -131,13 +131,22 @@
       <option name="project" value="LOCAL" />
       <updated>1716399139970</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="textures (broken and WIP)">
+      <option name="closed" value="true" />
+      <created>1716400926782</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716400926782</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates" />
+    <MESSAGE value="textures (broken and WIP)" />
+    <option name="LAST_COMMIT_MESSAGE" value="textures (broken and WIP)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
